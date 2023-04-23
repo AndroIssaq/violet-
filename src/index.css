@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Cinzel&family=Fauna+One&family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,400&family=Raleway:ital,wght@0,200;0,400;0,900;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.container{
+  width: 95%;
+  margin: auto;
+}
+
+.nav .icons span{
+  transition: .3s;
+}
+.nav .icons span:hover{
+  background-color: rgb(193, 156, 227);
+}
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cart{
+  background-color: rgba(0, 0, 0, 0.558);
+}
+.addcart{
+  transition: .3s;
+}
+.addcart:hover{
+  background-color: rgb(193, 156, 227);
+}
+
+.add-to-cart{
+  transition: .3s;
+}
+.add-to-cart:hover{
+  background-color: #fff;
+  border: 1px solid #9333ea;
+  color:#9333ea;
+}
+.buy-now{
+  transition: .3s;
+}
+.buy-now:hover{
+  background-color: #9333ea;
+  border: 1px solid #9333ea;
+  color:#fff;
+}
+.cart-icon span{
+  content: '';
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: #9333ea;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px;
+  transition: .3s;
+}
+.fade-in{
+  opacity: 1;
+  z-index: 1;
+}
+.fade-out{
+  opacity: 0;
+  z-index: -1;
+}
